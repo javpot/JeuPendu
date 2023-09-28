@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		744BF9472ABC86FF00F70D5E /* ImageNameSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744BF9462ABC86FF00F70D5E /* ImageNameSequence.swift */; };
+		744BF9492ABC880300F70D5E /* ListeDeFilms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744BF9482ABC880300F70D5E /* ListeDeFilms.swift */; };
+		744BF94B2ABC884B00F70D5E /* MovieDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744BF94A2ABC884B00F70D5E /* MovieDownloader.swift */; };
+		744BF95A2ABCAA7600F70D5E /* JeuPendu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744BF9592ABCAA7600F70D5E /* JeuPendu.swift */; };
 		74525EB82ABC6FF600E8F187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74525EB72ABC6FF600E8F187 /* AppDelegate.swift */; };
 		74525EBA2ABC6FF600E8F187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74525EB92ABC6FF600E8F187 /* SceneDelegate.swift */; };
 		74525EBC2ABC6FF600E8F187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74525EBB2ABC6FF600E8F187 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		744BF9462ABC86FF00F70D5E /* ImageNameSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNameSequence.swift; sourceTree = "<group>"; };
+		744BF9482ABC880300F70D5E /* ListeDeFilms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListeDeFilms.swift; path = "../../../../../Downloads/énoncé/ListeDeFilms.swift"; sourceTree = "<group>"; };
+		744BF94A2ABC884B00F70D5E /* MovieDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDownloader.swift; sourceTree = "<group>"; };
+		744BF9592ABCAA7600F70D5E /* JeuPendu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeuPendu.swift; sourceTree = "<group>"; };
 		74525EB42ABC6FF600E8F187 /* JeuPendu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeuPendu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74525EB72ABC6FF600E8F187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74525EB92ABC6FF600E8F187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +64,9 @@
 		74525EB62ABC6FF600E8F187 /* JeuPendu */ = {
 			isa = PBXGroup;
 			children = (
+				744BF94A2ABC884B00F70D5E /* MovieDownloader.swift */,
+				744BF9462ABC86FF00F70D5E /* ImageNameSequence.swift */,
+				744BF9482ABC880300F70D5E /* ListeDeFilms.swift */,
 				74525EB72ABC6FF600E8F187 /* AppDelegate.swift */,
 				74525EB92ABC6FF600E8F187 /* SceneDelegate.swift */,
 				74525EBB2ABC6FF600E8F187 /* ViewController.swift */,
@@ -63,6 +74,7 @@
 				74525EC02ABC6FF700E8F187 /* Assets.xcassets */,
 				74525EC22ABC6FF700E8F187 /* LaunchScreen.storyboard */,
 				74525EC52ABC6FF700E8F187 /* Info.plist */,
+				744BF9592ABCAA7600F70D5E /* JeuPendu.swift */,
 			);
 			path = JeuPendu;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				74525EBC2ABC6FF600E8F187 /* ViewController.swift in Sources */,
+				744BF94B2ABC884B00F70D5E /* MovieDownloader.swift in Sources */,
+				744BF95A2ABCAA7600F70D5E /* JeuPendu.swift in Sources */,
 				74525EB82ABC6FF600E8F187 /* AppDelegate.swift in Sources */,
 				74525EBA2ABC6FF600E8F187 /* SceneDelegate.swift in Sources */,
+				744BF9492ABC880300F70D5E /* ListeDeFilms.swift in Sources */,
+				744BF9472ABC86FF00F70D5E /* ImageNameSequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +311,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +340,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
